@@ -7,13 +7,14 @@
    
     <div><canvas id="videoCanvas" width="640" height="360"></canvas></div>
    
-    <script type="text/javascript" src="jsmeg.js"></script>
+    <script type="text/javascript" src="jsmpeg.js"></script>
     <script type="text/javascript">
       var canvas = document.getElementById('videoCanvas');
  
       var ws = new WebSocket("ws://192.168.2.159:9999")
      
         var player = new jsmpeg(ws, {canvas:canvas, autoplay:true,audio:false,loop: true});
+        
   
 
 
