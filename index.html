@@ -13,10 +13,10 @@
  
       var ws = new WebSocket("ws://192.168.2.8:9999")
      
-        var player = new jsmpeg(ws, {canvas:canvas, autoplay:true,audio:false,loop: true});
+        var player = new jsmpeg(ws, {canvas:canvas, autoplay:true,audio:false,loop: true , codedHeight:200,codedWidth:400});
         
-  
-
+        console.log(player)
+ 
 
 
     </script>
