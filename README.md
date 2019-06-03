@@ -3,3 +3,6 @@
 Kurulum 
 npm i 
 node app.js 
+
+
+node 

@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
+    "face-recognition": "^0.9.4",
     "node-onvif": "^0.1.7",
     "node-rtsp-stream": "0.0.3",
     "request": "^2.88.0"
