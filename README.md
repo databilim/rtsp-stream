@@ -4,6 +4,6 @@ Kurulum
 npm i 
 node app.js 
 
+http://localhost:3000
 
-node 
 ![alt text](img/1.png)
