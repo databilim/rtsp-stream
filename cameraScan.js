@@ -10,8 +10,8 @@ onvif.startProbe().then((device_info_list) => {
   device_info_list.forEach((info,x) => {
   
     //console.log('- ' + info.urn);
-    //console.log('  - ' + info.name);
-    //console.log('  - ' + info.xaddrs[0]);
+    console.log('  - ' + info.name);
+    console.log('  - ' + info.xaddrs[0]);
     arr.push(info.xaddrs[0])
    
 
